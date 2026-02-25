@@ -1,0 +1,31 @@
+name: travel_app
+description: "Visit Rwanda Travel App - Multi-screen travel app with Rwandan destinations"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/akagera.jpg
+    - assets/images/Gishwati_Forest.jpg
+    - assets/images/kigali.jpg
+    - assets/images/kigalipalacemuseum.jpg
+    - assets/images/Lake_Kivu.jpg
+    - assets/images/musanze.jpg
+    - assets/images/nyungwe.jpg
+    - assets/images/volcano.jpg
